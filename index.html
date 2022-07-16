@@ -4,9 +4,44 @@
     <meta charset="UTF-8">
     <title></title>
     <script src="./src/index-transform.module.js"></script>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
-  <body>
+
+    <body class="bg-dark">
   
+    <div class="card text-center">
+      <div class="card-header bg-dark" style="user-select: none;">
+        <ul class="nav nav-tabs card-header-tabs">
+          <li class="nav-item text-dark">
+            <a class="nav-link active" aria-current="true" href="#">Debugger</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Editor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Assets</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Sprites</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Coder</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Composer</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white">Producer</a>
+          </li>
+        </ul>
+      </div>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <a href="#" class="btn btn-primary">Go somewhere</a>
+      </div>
+    </div>
+
     <script>
       // You can also require other files to run in this process
       require('./renderer.js')

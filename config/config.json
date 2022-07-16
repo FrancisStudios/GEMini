@@ -1,9 +1,9 @@
 {
     "App":{
         "window":{
-            "title": "FrancisStudios Empty Electron App",
-            "width": 800,
-            "height": 600,
+            "title": "GEMini by FrancisStudios",
+            "width": 1280,
+            "height": 720,
             "menu": false
         },
 
