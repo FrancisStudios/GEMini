@@ -1,0 +1,20 @@
+{
+  "name": "GEMini",
+  "version": "1.0.0",
+  "description": "A mini game engine for creating fun games",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/FrancisStudios/GEMini",
+  "keywords": [
+    "GEMINI",
+    "Game Engine Mini",
+    "Game Engine"
+  ],
+  "author": "Francis Stuidos",
+  "license": "",
+  "devDependencies": {
+    "electron": "^5.0.0"
+  }
+}
