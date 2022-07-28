@@ -7,6 +7,7 @@
     <script src="./src/index-transform.module.js"></script>
     <script src="./src/components/main/main.component.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="config/style.config.css">
   </head>
 
     <body class="bg-dark">
@@ -38,9 +39,71 @@
         </ul>
       </div>
       <div class="card-body">
-        <h5 class="card-title">Special title treatment</h5>
-        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-        <a href="#" class="btn btn-primary">Go somewhere</a>
+       <!--
+        WORKSPACE TEMPLATES HERE
+       -->
+
+       <div id="debugger">
+
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-6">
+              <canvas></canvas>
+            </div>
+            <div class="col-6">
+              <div class="card-body">
+                <h5 class="card-title">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button" class="btn btn-success">Play</button>
+                        <button type="button" class="btn btn-warning">Pause</button>
+                        <button type="button" class="btn btn-danger">Stop</button>
+                      </div>
+                    </div>
+
+                    <div class="col-6" id="fps_counter">
+                      <button type="button" disabled class="btn btn-dark">
+                        Frames Per Second <span class="badge text-bg-secondary">0</span>
+                      </button>
+                    </div>
+                  </div>
+                </h5>
+                <div class="row">
+                  <div class="col-6">
+                    <div class="card">
+                      <div class="card" style="width: 18rem;">
+                        <div class="card-header">
+                          Console
+                        </div>
+                        <ul class="list-group list-group-flush">
+                          <li class="list-group-item">An item</li>
+                          <li class="list-group-item">A second item</li>
+                          <li class="list-group-item">A third item</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-6">
+                    <div class="card" style="width: 18rem;">
+                      <div class="card-header">
+                        Variables
+                      </div>
+                      <ul class="list-group list-group-flush">
+                        <li class="list-group-item">An item</li>
+                        <li class="list-group-item">A second item</li>
+                        <li class="list-group-item">A third item</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+       </div>
+
       </div>
     </div>
 
