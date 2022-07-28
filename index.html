@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8">
     <title></title>
+    <script src="./node_modules/jquery/dist/jquery.min.js" onload="window.$ = window.jQuery = module.exports"></script>
     <script src="./src/index-transform.module.js"></script>
+    <script src="./src/components/main/main.component.js"></script>
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
   </head>
 
@@ -12,25 +14,25 @@
     <div class="card text-center">
       <div class="card-header bg-dark" style="user-select: none;">
         <ul class="nav nav-tabs card-header-tabs">
-          <li class="nav-item text-dark">
+          <li class="nav-item text-dark" id="debugger-switch">
             <a class="nav-link active" aria-current="true" href="#">Debugger</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="editor-switch">
             <a class="nav-link text-white">Editor</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="assets-switch">
             <a class="nav-link text-white">Assets</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="sprites-switch">
             <a class="nav-link text-white">Sprites</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="coder-switch">
             <a class="nav-link text-white">Coder</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="composer-switch">
             <a class="nav-link text-white">Composer</a>
           </li>
-          <li class="nav-item">
+          <li class="nav-item" id="producer-switch">
             <a class="nav-link text-white">Producer</a>
           </li>
         </ul>
